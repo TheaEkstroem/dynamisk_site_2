@@ -1,0 +1,46 @@
+.index_nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #517a8b;
+  font-family: monospace;
+}
+
+/* logo nav */
+.logo_index img {
+  display: block;
+  margin: 1% auto 10% auto;
+  max-width: 100%;
+}
+
+/* Main navigation */
+
+.nav_index {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  font-size: 22px;
+  font-weight: bolder;
+}
+.nav_index a:hover {
+  text-decoration: underline;
+  opacity: 80%;
+}
+
+.nav_index ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_index li {
+  display: inline-block;
+  margin: 0 30px; /* Add space between menu items */
+}
+
+.nav_index a {
+  text-decoration: none;
+  color: white;
+  padding: 10px; /* Add spacing around the links */
+}

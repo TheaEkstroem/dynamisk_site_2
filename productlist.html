@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Productlist</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="category.html">Category</a></li>
+          <li><a href="productlist.html">Productlist</a></li>
+          <li><a href="product.html">Product</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Products</h1>
+      <section class="productList"></section>
+      <template class="productTemplate">
+        <article class="productCard">
+          <a href="product.html">
+            <div class="imgPosition">
+              <div class="soldOut">
+                <img
+                  class="img"
+                  src="https://kea-alt-del.dk/t7/images/webp/640/1532.webp"
+                  alt=""
+                />
+              </div>
+              <div class="saleBadge hide">Deal</div>
+              <div class="soldoutBadge hide">Sold Out</div>
+            </div>
+            <p class="productlistBrand">Puma</p>
+            <p class="productlistName">Grey Leaping Cat T-shirt</p>
+            <p class="productlistPrice">899 DKK</p></a
+          >
+          <div class="onSale">
+            <p class="newPrice hide">584 DKK</p>
+            <p class="originalPrice hide">899 DKK</p>
+          </div>
+        </article>
+      </template>
+    </main>
+    <footer></footer>
+    <script src="js/productlist.js"></script>
+  </body>
+</html>
